@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/raceteammanager
+raceteammanager.so
+raceteammanager.dylib
+raceteammanager.dll
+raceteammanager.a
+raceteammanager.lib
+raceteammanager-test-*
+*.exe
+*.o
+*.obj
+*.lst

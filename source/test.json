@@ -1,0 +1,10 @@
+{
+  "authors": [
+    "PC"
+  ],
+  "copyright": "Copyright © 2019, PC",
+  "description": "Race team Manager \"server\", e.g. the game itself",
+  "license": "proprietary",
+  "name": "raceteammanager",
+  "dflags": [ "-J" ]
+}

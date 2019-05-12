@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{3775BE32-3093-4072-86C1-1B35C884EF82}") = "raceteammanager", ".dub/raceteammanager.visualdproj", "{60403F25-F214-441B-8980-AB16472BCD37}"
+	ProjectSection(ProjectDependencies) = postProject
+		{33D508D8-210B-48E0-B04A-D5EC7B92D4D7} = {33D508D8-210B-48E0-B04A-D5EC7B92D4D7}
+		{E7E68653-AF4B-458A-A71B-597120C56704} = {E7E68653-AF4B-458A-A71B-597120C56704}
+		{4B2F37DF-99F5-40E6-9AB1-EE914A57E96C} = {4B2F37DF-99F5-40E6-9AB1-EE914A57E96C}
+	EndProjectSection
+EndProject
+Project("{3775BE32-3093-4072-86C1-1B35C884EF82}") = "automem", ".dub/automem.visualdproj", "{33D508D8-210B-48E0-B04A-D5EC7B92D4D7}"
+EndProject
+Project("{3775BE32-3093-4072-86C1-1B35C884EF82}") = "emsi_containers", ".dub/emsi_containers.visualdproj", "{E7E68653-AF4B-458A-A71B-597120C56704}"
+EndProject
+Project("{3775BE32-3093-4072-86C1-1B35C884EF82}") = "stdx-allocator", ".dub/stdx-allocator.visualdproj", "{4B2F37DF-99F5-40E6-9AB1-EE914A57E96C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		debug|Win32 = debug|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60403F25-F214-441B-8980-AB16472BCD37}.debug|Win32.ActiveCfg = debug|Win32
+		{60403F25-F214-441B-8980-AB16472BCD37}.debug|Win32.Build.0 = debug|Win32
+		{33D508D8-210B-48E0-B04A-D5EC7B92D4D7}.debug|Win32.ActiveCfg = debug|Win32
+		{33D508D8-210B-48E0-B04A-D5EC7B92D4D7}.debug|Win32.Build.0 = debug|Win32
+		{4B2F37DF-99F5-40E6-9AB1-EE914A57E96C}.debug|Win32.ActiveCfg = debug|Win32
+		{4B2F37DF-99F5-40E6-9AB1-EE914A57E96C}.debug|Win32.Build.0 = debug|Win32
+		{E7E68653-AF4B-458A-A71B-597120C56704}.debug|Win32.ActiveCfg = debug|Win32
+		{E7E68653-AF4B-458A-A71B-597120C56704}.debug|Win32.Build.0 = debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
