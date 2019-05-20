@@ -3,9 +3,10 @@
     "",
     "\\source",
     "\\source\\GameFundamentals",
+    "\\source\\GameFundamentals\\facilities",
     "\\source\\outsideworld",
     "\\source\\util"
   ],
-  "SelectedNode": "\\source\\util\\frog.d",
+  "SelectedNode": "\\source\\GameFundamentals\\definitions.d",
   "PreviewInSolutionExplorer": false
 }

@@ -1,31 +1,31 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{3775BE32-3093-4072-86C1-1B35C884EF82}") = "raceteammanager", ".dub/raceteammanager.visualdproj", "{60403F25-F214-441B-8980-AB16472BCD37}"
+Project("{B6224071-8179-42F7-B0E3-5547FD2E6C8B}") = "raceteammanager", ".dub/raceteammanager.visualdproj", "{EF639FC1-7DF2-400E-BB9A-F4D1CD7B85CF}"
 	ProjectSection(ProjectDependencies) = postProject
-		{33D508D8-210B-48E0-B04A-D5EC7B92D4D7} = {33D508D8-210B-48E0-B04A-D5EC7B92D4D7}
-		{E7E68653-AF4B-458A-A71B-597120C56704} = {E7E68653-AF4B-458A-A71B-597120C56704}
-		{4B2F37DF-99F5-40E6-9AB1-EE914A57E96C} = {4B2F37DF-99F5-40E6-9AB1-EE914A57E96C}
+		{84562E17-E001-45FC-85C0-778B5D6E667C} = {84562E17-E001-45FC-85C0-778B5D6E667C}
+		{42E543B8-9160-4A53-A5A1-30A97D777347} = {42E543B8-9160-4A53-A5A1-30A97D777347}
+		{52984A97-D3D1-48BA-8153-8AF822897393} = {52984A97-D3D1-48BA-8153-8AF822897393}
 	EndProjectSection
 EndProject
-Project("{3775BE32-3093-4072-86C1-1B35C884EF82}") = "automem", ".dub/automem.visualdproj", "{33D508D8-210B-48E0-B04A-D5EC7B92D4D7}"
+Project("{B6224071-8179-42F7-B0E3-5547FD2E6C8B}") = "automem", ".dub/automem.visualdproj", "{84562E17-E001-45FC-85C0-778B5D6E667C}"
 EndProject
-Project("{3775BE32-3093-4072-86C1-1B35C884EF82}") = "emsi_containers", ".dub/emsi_containers.visualdproj", "{E7E68653-AF4B-458A-A71B-597120C56704}"
+Project("{B6224071-8179-42F7-B0E3-5547FD2E6C8B}") = "emsi_containers", ".dub/emsi_containers.visualdproj", "{42E543B8-9160-4A53-A5A1-30A97D777347}"
 EndProject
-Project("{3775BE32-3093-4072-86C1-1B35C884EF82}") = "stdx-allocator", ".dub/stdx-allocator.visualdproj", "{4B2F37DF-99F5-40E6-9AB1-EE914A57E96C}"
+Project("{B6224071-8179-42F7-B0E3-5547FD2E6C8B}") = "stdx-allocator", ".dub/stdx-allocator.visualdproj", "{52984A97-D3D1-48BA-8153-8AF822897393}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		debug|Win32 = debug|Win32
+		debug|x64 = debug|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{60403F25-F214-441B-8980-AB16472BCD37}.debug|Win32.ActiveCfg = debug|Win32
-		{60403F25-F214-441B-8980-AB16472BCD37}.debug|Win32.Build.0 = debug|Win32
-		{33D508D8-210B-48E0-B04A-D5EC7B92D4D7}.debug|Win32.ActiveCfg = debug|Win32
-		{33D508D8-210B-48E0-B04A-D5EC7B92D4D7}.debug|Win32.Build.0 = debug|Win32
-		{4B2F37DF-99F5-40E6-9AB1-EE914A57E96C}.debug|Win32.ActiveCfg = debug|Win32
-		{4B2F37DF-99F5-40E6-9AB1-EE914A57E96C}.debug|Win32.Build.0 = debug|Win32
-		{E7E68653-AF4B-458A-A71B-597120C56704}.debug|Win32.ActiveCfg = debug|Win32
-		{E7E68653-AF4B-458A-A71B-597120C56704}.debug|Win32.Build.0 = debug|Win32
+		{EF639FC1-7DF2-400E-BB9A-F4D1CD7B85CF}.debug|x64.ActiveCfg = debug|x64
+		{EF639FC1-7DF2-400E-BB9A-F4D1CD7B85CF}.debug|x64.Build.0 = debug|x64
+		{84562E17-E001-45FC-85C0-778B5D6E667C}.debug|x64.ActiveCfg = debug|x64
+		{84562E17-E001-45FC-85C0-778B5D6E667C}.debug|x64.Build.0 = debug|x64
+		{52984A97-D3D1-48BA-8153-8AF822897393}.debug|x64.ActiveCfg = debug|x64
+		{52984A97-D3D1-48BA-8153-8AF822897393}.debug|x64.Build.0 = debug|x64
+		{42E543B8-9160-4A53-A5A1-30A97D777347}.debug|x64.ActiveCfg = debug|x64
+		{42E543B8-9160-4A53-A5A1-30A97D777347}.debug|x64.Build.0 = debug|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

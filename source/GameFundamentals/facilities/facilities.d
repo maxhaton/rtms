@@ -1,2 +1,2 @@
-module facilities;
+module facilities.facilities;
 import GameFundamentals.definitions;

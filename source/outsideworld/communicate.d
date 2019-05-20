@@ -1,6 +1,6 @@
 ///Handles messages from game client;
 ///e.g. Interprocess communication by exchanging json objects.
-module message;
+module outsideworld.communicate;
 
 
 struct message(Policy) {

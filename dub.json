@@ -10,7 +10,8 @@
 	"description": "Race team Manager \"server\", e.g. the game itself",
 	"dflags": [
 		"-J.",
-		"-dip1000"
+		"-dip1000",
+		"-profile"
 	],
 	"license": "proprietary",
 	"name": "raceteammanager"

@@ -1,6 +1,6 @@
 module instance;
 import GameFundamentals.definitions;
-import outsideworld;
+
 import automem;
 struct gameInstance {
 	///Is the game in physics-mode, or 

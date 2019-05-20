@@ -1,4 +1,4 @@
-module debugout;
+module outsideworld.debugout;
 import core.thread;
 ///Extremely basic debugger, designed to work the command line for basic debugging and nothing else.
 struct askShowDebugger {
