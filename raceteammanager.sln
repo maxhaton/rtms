@@ -1,33 +1,38 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{B6224071-8179-42F7-B0E3-5547FD2E6C8B}") = "raceteammanager", ".dub/raceteammanager.visualdproj", "{EF639FC1-7DF2-400E-BB9A-F4D1CD7B85CF}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{002A2DE9-8BB6-484D-9802-7E4AD4084715}") = "raceteammanager", ".dub\raceteammanager.visualdproj", "{B7072306-F9C8-46F4-A548-EFEE69453ADE}"
 	ProjectSection(ProjectDependencies) = postProject
-		{84562E17-E001-45FC-85C0-778B5D6E667C} = {84562E17-E001-45FC-85C0-778B5D6E667C}
-		{42E543B8-9160-4A53-A5A1-30A97D777347} = {42E543B8-9160-4A53-A5A1-30A97D777347}
-		{52984A97-D3D1-48BA-8153-8AF822897393} = {52984A97-D3D1-48BA-8153-8AF822897393}
+		{59B3C5CB-6BAC-4C2D-8159-0C8496B59DA2} = {59B3C5CB-6BAC-4C2D-8159-0C8496B59DA2}
+		{C0DF564C-9F2D-4FBF-B0B7-A6293A44C8F7} = {C0DF564C-9F2D-4FBF-B0B7-A6293A44C8F7}
+		{49F4E838-CB57-4AF0-8746-E9F7B9914E38} = {49F4E838-CB57-4AF0-8746-E9F7B9914E38}
 	EndProjectSection
 EndProject
-Project("{B6224071-8179-42F7-B0E3-5547FD2E6C8B}") = "automem", ".dub/automem.visualdproj", "{84562E17-E001-45FC-85C0-778B5D6E667C}"
+Project("{002A2DE9-8BB6-484D-9802-7E4AD4084715}") = "automem", ".dub\automem.visualdproj", "{59B3C5CB-6BAC-4C2D-8159-0C8496B59DA2}"
 EndProject
-Project("{B6224071-8179-42F7-B0E3-5547FD2E6C8B}") = "emsi_containers", ".dub/emsi_containers.visualdproj", "{42E543B8-9160-4A53-A5A1-30A97D777347}"
+Project("{002A2DE9-8BB6-484D-9802-7E4AD4084715}") = "emsi_containers", ".dub\emsi_containers.visualdproj", "{C0DF564C-9F2D-4FBF-B0B7-A6293A44C8F7}"
 EndProject
-Project("{B6224071-8179-42F7-B0E3-5547FD2E6C8B}") = "stdx-allocator", ".dub/stdx-allocator.visualdproj", "{52984A97-D3D1-48BA-8153-8AF822897393}"
+Project("{002A2DE9-8BB6-484D-9802-7E4AD4084715}") = "stdx-allocator", ".dub\stdx-allocator.visualdproj", "{49F4E838-CB57-4AF0-8746-E9F7B9914E38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		debug|x64 = debug|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EF639FC1-7DF2-400E-BB9A-F4D1CD7B85CF}.debug|x64.ActiveCfg = debug|x64
-		{EF639FC1-7DF2-400E-BB9A-F4D1CD7B85CF}.debug|x64.Build.0 = debug|x64
-		{84562E17-E001-45FC-85C0-778B5D6E667C}.debug|x64.ActiveCfg = debug|x64
-		{84562E17-E001-45FC-85C0-778B5D6E667C}.debug|x64.Build.0 = debug|x64
-		{52984A97-D3D1-48BA-8153-8AF822897393}.debug|x64.ActiveCfg = debug|x64
-		{52984A97-D3D1-48BA-8153-8AF822897393}.debug|x64.Build.0 = debug|x64
-		{42E543B8-9160-4A53-A5A1-30A97D777347}.debug|x64.ActiveCfg = debug|x64
-		{42E543B8-9160-4A53-A5A1-30A97D777347}.debug|x64.Build.0 = debug|x64
+		{B7072306-F9C8-46F4-A548-EFEE69453ADE}.debug|x64.ActiveCfg = debug|x64
+		{B7072306-F9C8-46F4-A548-EFEE69453ADE}.debug|x64.Build.0 = debug|x64
+		{59B3C5CB-6BAC-4C2D-8159-0C8496B59DA2}.debug|x64.ActiveCfg = debug|x64
+		{59B3C5CB-6BAC-4C2D-8159-0C8496B59DA2}.debug|x64.Build.0 = debug|x64
+		{C0DF564C-9F2D-4FBF-B0B7-A6293A44C8F7}.debug|x64.ActiveCfg = debug|x64
+		{C0DF564C-9F2D-4FBF-B0B7-A6293A44C8F7}.debug|x64.Build.0 = debug|x64
+		{49F4E838-CB57-4AF0-8746-E9F7B9914E38}.debug|x64.ActiveCfg = debug|x64
+		{49F4E838-CB57-4AF0-8746-E9F7B9914E38}.debug|x64.Build.0 = debug|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54A7CAC8-2437-499A-8888-62119E8ED984}
 	EndGlobalSection
 EndGlobal

@@ -1,24 +1,45 @@
 module GameFundamentals.definitions;
+import GameFundamentals.data.database;
 
+template AcceptFinger(bool root) {
+	
+	static if (root) {
+		T finger(T = void)(visitor theFinger)
+		{
+			return theFinger.playWith(this);
+		}
+	} else {
+		override T finger(T = void )(visitor theFinger)
+		{
+			return theFinger.playWith(this);
+		}
+	}
+
+
+}
 ///Any part of the game.
-class gameObject {
-	///Direct finger
-	pure auto finger(T)(finger x) {
-		return playWith(this);
+abstract class gameObject {
+	///Direct finger: Accept a visitor
+
+	mixin AcceptFinger!true;
+	this()
+	{
+		///Get a 
+	}
+	~this()
+	{
+		
 	}
 	///Game ID
-	uint gid;
+	gameID myID;
 }
-///A game object that is not a 1* item e.g. Tyres or types of buildings
-class primitive : gameObject {
-
-}
-///A finger (visitor implementation)
-class finger : visitor {
-	
-}
-interface visitor {
-	T playWith(T)(gameObject target);
-
+immutable struct gameID {
+	@disable this(this);
 }
 
+class visitor {
+	T playWith(T = void)(gameObject target) {
+		//Do nothing
+	}
+
+}

@@ -1,9 +1,11 @@
-//The main game database for all items during gameplay
-
-module GameFundamentals.database;
+module GameFundamentals.data.database;
+import GameFundamentals.definitions;
 import containers;
-///This really has to be @safe due to interactions with the outside
-@safe:
-struct gameDatabase {
-
+struct database {
+	auto store = HashMap!(gameID, gameObject);
+	///Register a new gameObject
+	gameID register()
+	{
+		
+	}
 }

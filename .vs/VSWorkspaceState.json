@@ -3,10 +3,11 @@
     "",
     "\\source",
     "\\source\\GameFundamentals",
+    "\\source\\GameFundamentals\\data",
     "\\source\\GameFundamentals\\facilities",
     "\\source\\outsideworld",
     "\\source\\util"
   ],
-  "SelectedNode": "\\source\\GameFundamentals\\definitions.d",
+  "SelectedNode": "\\source\\GameFundamentals\\data",
   "PreviewInSolutionExplorer": false
 }
