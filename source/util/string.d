@@ -2,8 +2,7 @@
 module string;
 import stdx.allocator;
 public alias utf8 = char;
-public alias utf16 = wchar;
-public alias utf32 = dchar;
+
 @nogc:
 @safe:
 

@@ -1,5 +1,5 @@
 module GameFundamentals.definitions;
-import GameFundamentals.data.database;
+public import GameFundamentals.data.database;
 
 template AcceptFinger(bool root) {
 	
@@ -17,14 +17,16 @@ template AcceptFinger(bool root) {
 
 
 }
-///Any part of the game.
-abstract class gameObject {
+/* Any part of the game.
+-	Priority is the default priority value
+*/
+abstract class gameObject(objectLifetime priority) {
 	///Direct finger: Accept a visitor
 
 	mixin AcceptFinger!true;
 	this()
 	{
-		///Get a 
+		myID = rtmDatabase.register(priority);
 	}
 	~this()
 	{
@@ -32,9 +34,6 @@ abstract class gameObject {
 	}
 	///Game ID
 	gameID myID;
-}
-immutable struct gameID {
-	@disable this(this);
 }
 
 class visitor {
