@@ -12,7 +12,7 @@
 	"dflags": [
 		"-J.",
 		"-dip1000",
-		"-Hf=header"
+		"-dip1008"
 	],
 	"license": "proprietary",
 	"name": "raceteammanager"
