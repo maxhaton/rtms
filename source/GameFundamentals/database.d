@@ -1,34 +1,23 @@
-module GameFundamentals.data.database;
+module GameFundamentals.database;
+
 import GameFundamentals.definitions;
 import containers;
-
+@safe: 
 @nogc:
 
-extern(C++)  {
-	struct database {
+ extern(C++) {
+	public struct rtmDatabase {
 		import core.atomic;
 		private long bump;
 
 		///Register a new gameObject
-		gameID register(objectLifetime priority) shared
+		gameID register(objectLifetime priority)
 		{
-			atomicOp!"+="(bump, 1);
+			bump += 1;
 			return gameID(bump, priority);
 		}
 
 	}
 
 }
-const struct gameID {
-	long hash;
-	objectLifetime priority = objectLifetime.wholegame;
-}
-enum objectLifetime {
-	wholegame,
-	mostgame, 
-	season,
-	day,
-	race,
-	_short
-}
-shared database rtmDatabase;
+

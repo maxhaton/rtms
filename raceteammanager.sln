@@ -1,36 +1,36 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{C6BF438A-F88D-4A68-B35C-DBBD8DA1608F}") = "raceteammanager", ".dub/raceteammanager.visualdproj", "{0C6AA268-1D72-4C68-8C0F-D730856388BA}"
+Project("{925DCCF6-8CE3-4936-ACD7-D6B97ACC27A6}") = "raceteammanager", ".dub/raceteammanager.visualdproj", "{E1174391-36CD-41EA-B3C3-AEB19A2EC259}"
 	ProjectSection(ProjectDependencies) = postProject
-		{99582C20-4256-4B80-835B-C0292DBACA7E} = {99582C20-4256-4B80-835B-C0292DBACA7E}
-		{86631CEF-ACF2-4A35-8FE8-EAB392CCD6A4} = {86631CEF-ACF2-4A35-8FE8-EAB392CCD6A4}
-		{707008ED-EC2B-490B-9591-08F9915068AC} = {707008ED-EC2B-490B-9591-08F9915068AC}
-		{0B18A8D5-8D26-4140-A537-CE5CEB83CFC4} = {0B18A8D5-8D26-4140-A537-CE5CEB83CFC4}
+		{E3E254FC-D661-43F4-BAE5-572D9D3F0E1F} = {E3E254FC-D661-43F4-BAE5-572D9D3F0E1F}
+		{39F5FE16-596C-433E-AD06-4A2BB824D67F} = {39F5FE16-596C-433E-AD06-4A2BB824D67F}
+		{66F566E6-EB68-4B41-820A-8FADA856ABC1} = {66F566E6-EB68-4B41-820A-8FADA856ABC1}
+		{E3EFF60B-9740-4CF1-87F0-8141A22EA233} = {E3EFF60B-9740-4CF1-87F0-8141A22EA233}
 	EndProjectSection
 EndProject
-Project("{C6BF438A-F88D-4A68-B35C-DBBD8DA1608F}") = "automem", ".dub/automem.visualdproj", "{99582C20-4256-4B80-835B-C0292DBACA7E}"
+Project("{925DCCF6-8CE3-4936-ACD7-D6B97ACC27A6}") = "automem", ".dub/automem.visualdproj", "{E3E254FC-D661-43F4-BAE5-572D9D3F0E1F}"
 EndProject
-Project("{C6BF438A-F88D-4A68-B35C-DBBD8DA1608F}") = "emsi_containers", ".dub/emsi_containers.visualdproj", "{86631CEF-ACF2-4A35-8FE8-EAB392CCD6A4}"
+Project("{925DCCF6-8CE3-4936-ACD7-D6B97ACC27A6}") = "emsi_containers", ".dub/emsi_containers.visualdproj", "{39F5FE16-596C-433E-AD06-4A2BB824D67F}"
 EndProject
-Project("{C6BF438A-F88D-4A68-B35C-DBBD8DA1608F}") = "stdx-allocator", ".dub/stdx-allocator.visualdproj", "{707008ED-EC2B-490B-9591-08F9915068AC}"
+Project("{925DCCF6-8CE3-4936-ACD7-D6B97ACC27A6}") = "stdx-allocator", ".dub/stdx-allocator.visualdproj", "{66F566E6-EB68-4B41-820A-8FADA856ABC1}"
 EndProject
-Project("{C6BF438A-F88D-4A68-B35C-DBBD8DA1608F}") = "faked", ".dub/faked.visualdproj", "{0B18A8D5-8D26-4140-A537-CE5CEB83CFC4}"
+Project("{925DCCF6-8CE3-4936-ACD7-D6B97ACC27A6}") = "faked", ".dub/faked.visualdproj", "{E3EFF60B-9740-4CF1-87F0-8141A22EA233}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		debug|x64 = debug|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0B18A8D5-8D26-4140-A537-CE5CEB83CFC4}.debug|x64.ActiveCfg = debug|x64
-		{0B18A8D5-8D26-4140-A537-CE5CEB83CFC4}.debug|x64.Build.0 = debug|x64
-		{0C6AA268-1D72-4C68-8C0F-D730856388BA}.debug|x64.ActiveCfg = debug|x64
-		{0C6AA268-1D72-4C68-8C0F-D730856388BA}.debug|x64.Build.0 = debug|x64
-		{99582C20-4256-4B80-835B-C0292DBACA7E}.debug|x64.ActiveCfg = debug|x64
-		{99582C20-4256-4B80-835B-C0292DBACA7E}.debug|x64.Build.0 = debug|x64
-		{707008ED-EC2B-490B-9591-08F9915068AC}.debug|x64.ActiveCfg = debug|x64
-		{707008ED-EC2B-490B-9591-08F9915068AC}.debug|x64.Build.0 = debug|x64
-		{86631CEF-ACF2-4A35-8FE8-EAB392CCD6A4}.debug|x64.ActiveCfg = debug|x64
-		{86631CEF-ACF2-4A35-8FE8-EAB392CCD6A4}.debug|x64.Build.0 = debug|x64
+		{E3EFF60B-9740-4CF1-87F0-8141A22EA233}.debug|x64.ActiveCfg = debug|x64
+		{E3EFF60B-9740-4CF1-87F0-8141A22EA233}.debug|x64.Build.0 = debug|x64
+		{E1174391-36CD-41EA-B3C3-AEB19A2EC259}.debug|x64.ActiveCfg = debug|x64
+		{E1174391-36CD-41EA-B3C3-AEB19A2EC259}.debug|x64.Build.0 = debug|x64
+		{E3E254FC-D661-43F4-BAE5-572D9D3F0E1F}.debug|x64.ActiveCfg = debug|x64
+		{E3E254FC-D661-43F4-BAE5-572D9D3F0E1F}.debug|x64.Build.0 = debug|x64
+		{66F566E6-EB68-4B41-820A-8FADA856ABC1}.debug|x64.ActiveCfg = debug|x64
+		{66F566E6-EB68-4B41-820A-8FADA856ABC1}.debug|x64.Build.0 = debug|x64
+		{39F5FE16-596C-433E-AD06-4A2BB824D67F}.debug|x64.ActiveCfg = debug|x64
+		{39F5FE16-596C-433E-AD06-4A2BB824D67F}.debug|x64.Build.0 = debug|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

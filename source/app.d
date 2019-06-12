@@ -13,7 +13,7 @@ import std.typecons;
 
 void main(string[] args)
 {
-	writeln("test");
+	
 	
 }
 

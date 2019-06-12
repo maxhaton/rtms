@@ -1,10 +1,11 @@
-module instance;
+module GameFundamentals.instance;
+
+
 import GameFundamentals.definitions;
 
+import GameFundamentals.database;
 import automem;
-struct gameInstance {
-	///Is the game in physics-mode, or 
-	bool continualOperation = false;
-	///How to talk to the outside world.
-	//Unique!(communicator) phonebox;
+
+class gameInstance {
+	Unique!rtmDatabase db;
 }

@@ -1,6 +1,18 @@
 module GameFundamentals.definitions;
-public import GameFundamentals.data.database;
-
+@safe: 
+import GameFundamentals.instance;
+const struct gameID {
+	long hash;
+	objectLifetime priority = objectLifetime.wholegame;
+}
+enum objectLifetime {
+	wholegame,
+	mostgame, 
+	season,
+	day,
+	race,
+	_short
+}
 template AcceptFinger(bool root) {
 	
 	static if (root) {
@@ -20,20 +32,22 @@ template AcceptFinger(bool root) {
 /* Any part of the game.
 -	Priority is the default priority value
 */
-abstract class gameObject(objectLifetime priority) {
+abstract class gameObject {
 	///Direct finger: Accept a visitor
 
 	mixin AcceptFinger!true;
-	this()
+	gameInstance mother;
+	this(gameInstance davros, objectLifetime life)
 	{
-		myID = rtmDatabase.register(priority);
+		mother  = davros;
+		myID = davros.db.register(life);
 	}
 	~this()
 	{
 		
 	}
 	///Game ID
-	gameID myID;
+	immutable gameID myID;
 }
 
 class visitor {

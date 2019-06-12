@@ -1,18 +1,13 @@
 ///Nogc (Managed string) string 
-module string;
+module util.string;
 import stdx.allocator;
 public alias utf8 = char;
 
 @nogc:
 @safe:
 
-struct manString {
+struct rtmString  {
 
-	union _SmlStr {
-		///32 chars for small string optimization
-		dchar[31] small;
-
-	}
 }
 
 
