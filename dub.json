@@ -14,6 +14,14 @@
 		"-dip1000",
 		"-dip1008"
 	],
+	"buildTypes": {
+		"debug-profile": {
+				"buildOptions": ["debugMode", "debugInfo", "profile"]
+		},
+		"debug-test": {
+				"buildOptions": ["debugMode", "debugInfo", "unittests"]
+		}
+	},
 	"license": "proprietary",
 	"name": "raceteammanager"
 }
