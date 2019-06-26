@@ -5,6 +5,7 @@
 		"dyaml": "0.7.1",
 		"emsi_containers": "0.8.0-alpha.14",
 		"faked": "0.2.0",
+		"libgit2": "0.25.1",
 		"ncurses": "~master",
 		"nice-curses": "0.2.5",
 		"sdlang-d": "0.10.5",

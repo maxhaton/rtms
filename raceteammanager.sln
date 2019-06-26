@@ -1,36 +1,31 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{65E7E70F-B059-46E4-8DAF-0C4D8957B151}") = "raceteammanager", ".dub/raceteammanager.visualdproj", "{25090AED-E469-4619-AFE1-D9647A1B5AF7}"
+Project("{F877E3A1-61E7-44F7-B6A5-B4F38D37B50A}") = "raceteammanager", ".dub/raceteammanager.visualdproj", "{59CC6A47-4190-441B-97D6-C9DA7CB8DD80}"
 	ProjectSection(ProjectDependencies) = postProject
-		{5F4BD7F9-F491-4E2A-B512-9D42CCCFCB6B} = {5F4BD7F9-F491-4E2A-B512-9D42CCCFCB6B}
-		{5075B39D-6F8E-4499-B6CB-4EB2488F12A6} = {5075B39D-6F8E-4499-B6CB-4EB2488F12A6}
-		{0DFDBEE6-6CD2-4B25-913C-8619B39A9EE9} = {0DFDBEE6-6CD2-4B25-913C-8619B39A9EE9}
-		{B9CD2953-E512-43DE-A1C8-857910FFDBA0} = {B9CD2953-E512-43DE-A1C8-857910FFDBA0}
+		{D87C1500-A685-4BDD-80F9-DE496A1B2B83} = {D87C1500-A685-4BDD-80F9-DE496A1B2B83}
+		{4F045B3D-0FD8-4FF9-AA0F-AAF40D287395} = {4F045B3D-0FD8-4FF9-AA0F-AAF40D287395}
+		{9FB6CDB8-56A8-4AB6-B51E-651DB76A4195} = {9FB6CDB8-56A8-4AB6-B51E-651DB76A4195}
 	EndProjectSection
 EndProject
-Project("{65E7E70F-B059-46E4-8DAF-0C4D8957B151}") = "automem", ".dub/automem.visualdproj", "{5F4BD7F9-F491-4E2A-B512-9D42CCCFCB6B}"
+Project("{F877E3A1-61E7-44F7-B6A5-B4F38D37B50A}") = "automem", ".dub/automem.visualdproj", "{D87C1500-A685-4BDD-80F9-DE496A1B2B83}"
 EndProject
-Project("{65E7E70F-B059-46E4-8DAF-0C4D8957B151}") = "emsi_containers", ".dub/emsi_containers.visualdproj", "{5075B39D-6F8E-4499-B6CB-4EB2488F12A6}"
+Project("{F877E3A1-61E7-44F7-B6A5-B4F38D37B50A}") = "emsi_containers", ".dub/emsi_containers.visualdproj", "{4F045B3D-0FD8-4FF9-AA0F-AAF40D287395}"
 EndProject
-Project("{65E7E70F-B059-46E4-8DAF-0C4D8957B151}") = "stdx-allocator", ".dub/stdx-allocator.visualdproj", "{0DFDBEE6-6CD2-4B25-913C-8619B39A9EE9}"
-EndProject
-Project("{65E7E70F-B059-46E4-8DAF-0C4D8957B151}") = "faked", ".dub/faked.visualdproj", "{B9CD2953-E512-43DE-A1C8-857910FFDBA0}"
+Project("{F877E3A1-61E7-44F7-B6A5-B4F38D37B50A}") = "stdx-allocator", ".dub/stdx-allocator.visualdproj", "{9FB6CDB8-56A8-4AB6-B51E-651DB76A4195}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		debug|x64 = debug|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B9CD2953-E512-43DE-A1C8-857910FFDBA0}.debug|x64.ActiveCfg = debug|x64
-		{B9CD2953-E512-43DE-A1C8-857910FFDBA0}.debug|x64.Build.0 = debug|x64
-		{25090AED-E469-4619-AFE1-D9647A1B5AF7}.debug|x64.ActiveCfg = debug|x64
-		{25090AED-E469-4619-AFE1-D9647A1B5AF7}.debug|x64.Build.0 = debug|x64
-		{5F4BD7F9-F491-4E2A-B512-9D42CCCFCB6B}.debug|x64.ActiveCfg = debug|x64
-		{5F4BD7F9-F491-4E2A-B512-9D42CCCFCB6B}.debug|x64.Build.0 = debug|x64
-		{0DFDBEE6-6CD2-4B25-913C-8619B39A9EE9}.debug|x64.ActiveCfg = debug|x64
-		{0DFDBEE6-6CD2-4B25-913C-8619B39A9EE9}.debug|x64.Build.0 = debug|x64
-		{5075B39D-6F8E-4499-B6CB-4EB2488F12A6}.debug|x64.ActiveCfg = debug|x64
-		{5075B39D-6F8E-4499-B6CB-4EB2488F12A6}.debug|x64.Build.0 = debug|x64
+		{59CC6A47-4190-441B-97D6-C9DA7CB8DD80}.debug|x64.ActiveCfg = debug|x64
+		{59CC6A47-4190-441B-97D6-C9DA7CB8DD80}.debug|x64.Build.0 = debug|x64
+		{D87C1500-A685-4BDD-80F9-DE496A1B2B83}.debug|x64.ActiveCfg = debug|x64
+		{D87C1500-A685-4BDD-80F9-DE496A1B2B83}.debug|x64.Build.0 = debug|x64
+		{9FB6CDB8-56A8-4AB6-B51E-651DB76A4195}.debug|x64.ActiveCfg = debug|x64
+		{9FB6CDB8-56A8-4AB6-B51E-651DB76A4195}.debug|x64.Build.0 = debug|x64
+		{4F045B3D-0FD8-4FF9-AA0F-AAF40D287395}.debug|x64.ActiveCfg = debug|x64
+		{4F045B3D-0FD8-4FF9-AA0F-AAF40D287395}.debug|x64.Build.0 = debug|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

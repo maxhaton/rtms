@@ -6,15 +6,14 @@ const struct gameID {
 	objectLifetime priority = objectLifetime.wholegame;
 }
 enum objectLifetime {
-	wholegame,
-	mostgame, 
-	season,
+	wholegame,	/// Fundamental object i.e. a mod
+	mostgame,  /// This item will last longer than a season but is longer 
+	season, 
 	day,
 	race,
 	_short
 }
 template AcceptFinger(bool root) {
-	
 	static if (root) {
 		T finger(T = void)(visitor theFinger)
 		{
@@ -26,8 +25,6 @@ template AcceptFinger(bool root) {
 			return theFinger.playWith(this);
 		}
 	}
-
-
 }
 /* Any part of the game.
 -	Priority is the default priority value

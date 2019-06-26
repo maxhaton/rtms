@@ -59,6 +59,7 @@ public struct Lazy(Result, CaptureTypes...)
 		flag = 1;
 		return data.result;
 	}
+
 }
 @safe unittest {
 	void test()

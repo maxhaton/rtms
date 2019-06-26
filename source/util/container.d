@@ -6,7 +6,7 @@ import util.allocate;
 A managedArray type, constructs objects and handles thread safety 
 if Type is shared.
 */
-struct rtmArray(Type, Allocator) {
+struct rtmArray(Type) {
 	private {
 		Type[] data;
 	}

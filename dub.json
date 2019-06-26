@@ -5,8 +5,7 @@
 	"copyright": "Copyright © 2019, PC",
 	"dependencies": {
 		"emsi_containers": "~>0.8.0-alpha.14",
-		"automem": "~>0.6.0",
-		"faked": "~>0.2.0"
+		"automem": "~>0.6.0"
 	},
 	"description": "Race team Manager \"server\", e.g. the game itself",
 	"dflags": [
